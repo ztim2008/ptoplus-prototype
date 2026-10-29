@@ -119,3 +119,5 @@ header{background:rgba(252,252,253,.78);backdrop-filter:saturate(1.4) blur(12px)
 @media(max-width:520px){[data-theme=blueprint] h2::after{display:none}}
 .menu a{white-space:nowrap}
 .card.big .il{width:100%;height:auto;max-height:190px;margin-bottom:8px;border-bottom:1px solid var(--dp-color-rule);padding-bottom:8px}
+.tkc{display:grid;grid-template-columns:minmax(200px,320px) 1fr;gap:24px;align-items:center}.tkc h3{font-size:22px}.tkill .il{width:100%;height:auto}
+@media(max-width:760px){.tkc{grid-template-columns:1fr}}
